@@ -1,0 +1,38 @@
+*[class*="icon-"] {transform: translateY(3px);}
+html {font-size: 14px;}
+body,html {height: 100%;}
+body {font-family: 'Source Sans Pro', sans-serif;font-size: 1rem;font-weight: 500;line-height: 1.5;color: #98a8b4;background-color: #f2f3f8;overflow-x: hidden;}
+a {color: #5d5386;text-decoration: none;transition: all 0.5s ease;}
+a:focus, a:hover {color: #e76c90;}
+a, i, span {display: inline-block;text-decoration: none;}
+a:hover, a:focus, i:hover, i:focus, span:hover, span:focus {text-decoration: none;}
+nav{height:50px;line-height:50px;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {margin-bottom: 0.5rem;font-family: 'Source Sans Pro', sans-serif;line-height: 1.1;color: #2c304d;}
+h2, .h2 {font-size: 2rem;font-weight: 600;}
+h4, .h4 {font-size: 1.4rem;font-weight: 600;}
+h6, .h6 {font-size: 1.2rem;font-weight: 600;color:#808080;}
+input{color:#808080;}
+p{color:#2c304d;font-size: 16px;padding:5px 25px;text-align: justify;line-height: 25px}
+button, input {outline: none !important;}
+td, th{color:#000000;}
+th{font-weight:bold;}
+::placeholder {font-weight: 600;color:#808080;}
+
+#preloader {position: fixed;top: 0;left: 0;right: 0;bottom: 0;background-color: #fff;z-index: 999999;}
+.canvas {position: absolute;margin: auto;top: 50%; left: 50%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+.loader-logo {display: block;width: 120px;margin-bottom: 25px;}
+.spinner {animation: spinner 1s linear infinite;border: solid 5px transparent;border-top: solid 5px #5d5386;border-radius: 100%;width: 60px;height: 60px;margin: 0 auto;}
+@keyframes spinner {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.go-top {background: #fff;position: absolute;width: 40px;height: 40px;border-radius: 50%;color: #2c304d;position: fixed;bottom: 3rem;right: 1rem;text-decoration: none;font-size: 16px;text-align: center;line-height: 40px;display: none;box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.15);z-index: 10000;}
+.go-top:hover,.go-top:focus {color: #5d5386;}
+.dropdown-content li > a, .dropdown-content li > span {color: #808080;}
+.btn {font-weight:bold;line-height: 1.25;padding: 5px 60px;font-size: 1rem;border-radius: 60px;transition: all 0.2s ease-in-out;position: relative;overflow: hidden;}
+.isStrong{font-weight: bold}
+.isLnk{cursor: pointer};
+nav ul a{color:#5d5386;font-weight:bold;}
+nav ul a:hover{color:#5d5386;font-weight:bold;}
+nav{color:#5d5386;}
+.navMenu{color:#5d5386;font-weight:bold;font-size:18px;cursor: pointer}
