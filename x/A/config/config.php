@@ -1,7 +1,7 @@
 <?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 	# Base Site URL
-	$config['base_url'] = 'http://localhost/onboard';
+	$config['base_url'] = 'http://local.rocket.co.in:8081/codeIgnitor/';
 	
 	# Index File
 	$config['index_page'] = 'index.php';
