@@ -1,4 +1,4 @@
-# codeIgnitor
+# codeIgnitor => phpmyClientOnBoard
 Client On Boarding Portal
 
 How To Install: 
